@@ -1,0 +1,11 @@
+:root {
+  --mainColor: wheat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--mainColor);
+}
