@@ -12,6 +12,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.tsx$/,
+        use: [{ loader: "import-glob-loader" }],
+        type: "tsx",
+      },
+      {
         test: /\.scss$/,
         use: [
           {
@@ -22,12 +27,8 @@ module.exports = {
               },
             },
           },
-          {
-            loader: "sass-loader",
-          },
-          {
-            loader: "import-glob-loader",
-          },
+          { loader: "sass-loader" },
+          { loader: "import-glob-loader" },
         ],
         type: "css",
       },

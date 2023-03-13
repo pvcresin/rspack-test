@@ -1,5 +1,7 @@
 import "./index.scss";
 
+import "./assets/*.tsx";
+
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 
