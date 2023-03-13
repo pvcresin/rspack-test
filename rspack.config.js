@@ -12,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
           {
             loader: "postcss-loader",
@@ -21,6 +21,12 @@ module.exports = {
                 plugins: ["postcss-preset-env"],
               },
             },
+          },
+          {
+            loader: "sass-loader",
+          },
+          {
+            loader: "import-glob-loader",
           },
         ],
         type: "css",

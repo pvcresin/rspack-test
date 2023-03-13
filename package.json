@@ -14,10 +14,14 @@
     "@rspack/cli": "latest",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "import-glob-loader": "^1.1.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^8.0.1",
-    "typescript": "^4.9.5"
+    "sass": "^1.59.2",
+    "sass-loader": "^13.2.0",
+    "typescript": "^4.9.5",
+    "webpack": "^5.76.1"
   },
   "browserslist": [
     "> 0.2%, not dead",

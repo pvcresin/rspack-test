@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index.scss";
 
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
@@ -10,6 +10,8 @@ function App() {
 
   return (
     <div className="App">
+      <h1>header 1</h1>
+      <p>paragraph</p>
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
