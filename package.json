@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "rspack serve",
+    "dev:analyze": "rspack serve --env analyze",
     "build": "rspack build"
   },
   "dependencies": {
@@ -21,7 +22,8 @@
     "sass": "^1.59.2",
     "sass-loader": "^13.2.0",
     "typescript": "^4.9.5",
-    "webpack": "^5.76.1"
+    "webpack": "^5.76.1",
+    "webpack-bundle-analyzer": "^4.8.0"
   },
   "browserslist": [
     "> 0.2%, not dead",
